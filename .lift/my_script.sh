@@ -6,7 +6,7 @@ cmd=$3
 # ... to be filled in ... 
 
 function version() {
-    echo 1
+    echo 5
 }
 
 function applicable() {
