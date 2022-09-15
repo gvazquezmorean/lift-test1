@@ -6,7 +6,7 @@ cmd=$3
 # ... to be filled in ... 
 
 function version() {
-    echo 5
+    echo "bulk v2"
 }
 
 function applicable() {
