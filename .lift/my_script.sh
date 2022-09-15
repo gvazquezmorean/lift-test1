@@ -14,7 +14,7 @@ function applicable() {
 }
 
 function run() {
-    echo "{ "tools": [{ \"type\": \"Hello World\", \
+    echo "{ \"tools\": [{ \"type\": \"Hello World\", \
             \"message\": \"We are analyzing commit $commit\", \
             \"file\": \"N/A\", \
             \"line\": 0, \
