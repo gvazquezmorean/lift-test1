@@ -14,12 +14,13 @@ function applicable() {
 }
 
 function run() {
-    echo "[{ \"type\": \"Hello World\", \
+    echo "{ "tools": [{ \"type\": \"Hello World\", \
             \"message\": \"We are analyzing commit $commit\", \
             \"file\": \"N/A\", \
             \"line\": 0, \
             \"details_url\": \"https://help.sonatype.com/lift/extending-lift\" \
-          }]"
+          }]
+          }"
 }
 
 if [[ "$cmd" = "run" ]] ; then 
