@@ -1,2 +1,2 @@
 customTools = [ ".lift/my_script.sh" ]
-commentStyle = "minimal"
+commentStyle = "none"
