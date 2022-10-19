@@ -6,20 +6,21 @@ cmd=$3
 # ... to be filled in ... 
 
 function version() {
-    echo 1
+    echo 5
 }
 
 function applicable() {
-    echo "true"
+    echo "true" "hola"
 }
 
 function run() {
-    echo "[{ \"type\": \"Hello World\", \
+    echo "{ "tools": [{ \"type\": \"Hello World2\", \
             \"message\": \"We are analyzing commit $commit\", \
             \"file\": \"N/A\", \
             \"line\": 0, \
             \"details_url\": \"https://help.sonatype.com/lift/extending-lift\" \
-          }]"
+          }]
+          }"
 }
 
 if [[ "$cmd" = "run" ]] ; then 
