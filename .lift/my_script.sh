@@ -10,7 +10,7 @@ function version() {
 }
 
 function applicable() {
-    echo "true"
+    echo "true" "hola"
 }
 
 function run() {
